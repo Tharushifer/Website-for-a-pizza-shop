@@ -1,0 +1,66 @@
+body {
+    background: "background.avif";
+    width: 100%;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.signup{
+    width: 400px;
+    height: 700px;
+    margin: auto;
+    background: whitesmoke;
+    border-radius: 5px;
+}
+.login{
+    width: 400px;
+    height: 340px;
+    margin: auto;
+    background: whitesmoke;
+    border-radius: 5px; 
+}
+h2{
+    padding-top: 5px;
+    text-align: center;
+}
+h4{
+    text-align: center;
+    padding-top: 6px;
+}
+form{
+    width: 300px;
+    margin-left: 35px;
+}
+
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 2px solid gray;
+    border-radius: 7px;
+    outline: none;
+}
+input[type="submit"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: lightskyblue;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    color: aliceblue;
+    background: rgb(13, 211, 247);
+
+
+}
+
+
